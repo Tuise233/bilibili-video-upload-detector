@@ -97,7 +97,7 @@ if __name__ == "__main__":
             video_hour += 1
             video_minute = 0
 
-        if video_second == 59 and video_minute == 59 and video_second == 59:
+        if video_hour == 23 and video_minute == 59 and video_second == 59:
             video_amount = 0
             
         time.sleep(1)
